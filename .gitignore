@@ -1,0 +1,19 @@
+# Dependencias de Composer
+/vendor/
+
+# Archivos de configuración locales (¡Para no filtrar credenciales!)
+# Si tu archivo config/db.php tiene las contraseñas reales de tu BD local, 
+# quítale el "numeral" (#) a la línea de abajo para ignorarlo:
+# /config/db.php
+
+# Archivos de caché y reportes generados por PHPUnit al correr los tests
+.phpunit.cache
+.phpunit.result.cache
+
+# Archivos de logs
+*.log
+
+# Configuraciones locales de VS Code y archivos del sistema operativo
+.vscode/
+.DS_Store
+Thumbs.db
