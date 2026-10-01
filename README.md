@@ -32,4 +32,11 @@ Este proyecto utiliza Composer para manejar las dependencias, Abre tu terminal e
 composer install
 ```
 
+### 2. Ejecutar las pruebas unitarias
+
+Para ejecutar las pruebas unitarias, Abrir la Terminal en la carpeta principal del proyecto y ejecutar este comando 
+```
+vendor/bin/phpunit ControlSystemTest.php
+```
+
 NOTA: En caso de que ocurran errores sobre las pruebas, quedaran datos basura en la base de datos, en este caso Formatear la Base de datos de phpmyadmin para volver a ejecutar (borrar la base de datos e importar el script de sql).
